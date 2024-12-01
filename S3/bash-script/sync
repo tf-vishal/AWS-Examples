@@ -14,7 +14,7 @@ fi
 
 
 #check for file name prefix
-if [ -z "$1" ]; then
+if [ -z "$2" ]; then
   echo "There needs to be a bucket name eg. ./bucket my-bucket-name"
   exit 1
 fi
