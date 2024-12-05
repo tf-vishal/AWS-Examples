@@ -18,7 +18,7 @@
     Once you’ve installed the AWS CLI, configure it with your AWS credentials:
 
    ```bash
-   aws configure```
+      aws configure
 
    ### **2. GitHub Setup** 
       #### **1. Create a New GitHub Repository**
