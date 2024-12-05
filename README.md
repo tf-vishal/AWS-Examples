@@ -15,7 +15,7 @@
    - **AWS CLI**: If your project needs integration with AWS, ensure the AWS CLI is configured (see [AWS Setup Documentation](#aws-setup-documentation)).
 ---
 ## Setup
----
+
    ### **1. Configure AWS CLI**
    Once you’ve installed the AWS CLI, configure it with your AWS credentials:
 ```bash
