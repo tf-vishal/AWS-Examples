@@ -13,7 +13,7 @@
    - **Git**: Install Git from [here](https://git-scm.com/).
    - **GitHub Account**: You’ll need a GitHub account. If you don’t have one, sign up at [GitHub](https://github.com/).
    - **AWS CLI**: If your project needs integration with AWS, ensure the AWS CLI is configured (see [AWS Setup Documentation](#aws-setup-documentation)).
-
+---
 ## Setup
 ---
    ### **1. Configure AWS CLI**
