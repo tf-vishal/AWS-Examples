@@ -1,6 +1,8 @@
 # AWS CodeBase
    A collection of examples and scripts for working with AWS services such as S3, EC2, Lambda, and more.
 
+   ---
+
 ## Prerequities
    Before starting, make sure you have the following:
    - An **AWS account**: If you don’t have one, sign up at [AWS](https://aws.amazon.com/).
