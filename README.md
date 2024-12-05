@@ -31,7 +31,7 @@ aws configure
 6. Select **Initialize this repository with a README** (optional).
 7. Click **Create repository**.
 
-   #### **2. Clone the Repository to Your Local Machine**
+#### **2. Clone the Repository to Your Local Machine**
    To clone the repository, use the following command:
    ```bash
       git clone https://github.com/username/AWS-Examples.git
