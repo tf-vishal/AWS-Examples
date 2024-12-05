@@ -1,3 +1,4 @@
 #ignore files
 
 .env
+.git.yml
