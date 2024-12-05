@@ -21,16 +21,15 @@ aws configure
    
    ### **2. GitHub Setup** 
    How to create repository on github and clone it and connect it
-      #### **1. Create a New GitHub Repository**
-         1. Go to [GitHub](https://github.com/).
-         2. Click on the **+** in the top-right corner and select **New repository**.
-         3. Choose a repository name (e.g., `AWS-Examples`).
-         4. Optionally, add a description.
-         5. Choose **Public** or **Private**.
-         6. Select **Initialize this repository with a README** (if you want).
-         7. Click **Create repository**.
+#### 1. Create a New GitHub Repository
 
-
+1. Go to [GitHub](https://github.com/).
+2. Click on the **+** in the top-right corner and select **New repository**.
+3. Choose a repository name (e.g., `AWS-Examples`).
+4. Optionally, add a description for the repository.
+5. Choose **Public** or **Private** for your repository.
+6. Select **Initialize this repository with a README** (optional).
+7. Click **Create repository**.
 
    #### **2. Clone the Repository to Your Local Machine**
    To clone the repository, use the following command:
