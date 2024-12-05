@@ -16,7 +16,7 @@
    ### **1. Configure AWS CLI**
    Once you’ve installed the AWS CLI, configure it with your AWS credentials:
       ```bash
-      aws configure
+      aws configure```
    
    ### **2. GitHub Setup** 
    How to create repository on github and clone it and connect it
@@ -32,8 +32,6 @@
 
 
    #### **2. Clone the Repository to Your Local Machine**
-
-      To clone the repository, use the following command:
-
-      ```bash
-      git clone https://github.com/username/AWS-Examples.git
+   To clone the repository, use the following command:
+   ```bash
+      git clone https://github.com/username/AWS-Examples.git```
