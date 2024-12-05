@@ -14,12 +14,12 @@ Follow these steps to install AWS CLI on Linux:
    unzip awscliv2.zip```
 
 3. Run the installer:
-```bash
-sudo ./aws/install```
+   ```bash
+   sudo ./aws/install```
 
 4. Verify the Installation:
-```bash
-aws --version```
+   ```bash
+   aws --version```
 
 ## Documentation
 
