@@ -3,3 +3,4 @@
 ### Cloudformation don't give Object support in IaC
 
 ![Etag](<Screenshot from 2024-12-13 13-46-55.png>)
+Before the tag on "Hello B***es" and after adding new liens on it. The etag changed.
