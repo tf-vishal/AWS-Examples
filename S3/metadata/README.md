@@ -78,3 +78,15 @@ aws s3api head-object --bucket metadata-fun-vs1 --key mytext.txt
 ### Metadata for Content-Type (Console Output)
 
 ![Used Metadata for Content_type Console](image-5.png)
+ 
+---
+
+## Cleanup
+
+To remove all created files and the bucket, use the following commands:
+
+```sh
+aws s3 rm s3://metadata-fun-vs1/mytext.txt
+aws s3 rm s3://metadata-fun-vs1/hello.txt
+aws s3 rb s3://metadata-fun-vs1
+```
