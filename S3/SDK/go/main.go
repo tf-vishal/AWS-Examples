@@ -37,6 +37,7 @@ func main() {
 	// Specify the bucket name and region
 	bucketName := "example-go-bucket"
 	region := "us-east-1"
+	fmt.Printf("Hello")
 
 	// Call the createBucket function
 	err := createBucket(bucketName, region)
