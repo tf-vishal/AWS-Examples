@@ -16,7 +16,7 @@ To create a new S3 bucket, use the following command:
 aws s3api create-bucket --bucket acls-fun-vs1
 ```
 
-This command creates a bucket named acls-fun-vs1.
+This command creates a bucket named ```acls-fun-vs1```.
 
 
 ---
@@ -81,7 +81,7 @@ For more information, [refer to the Put Bucket ACL Documentation](https://awscli
 aws s3api put-bucket-acl --bucket acls-fun-vs1 --access-control-policy file:///home/muzan/AWS-Examples/S3/acls/policy.json
 ```
 
-This command applies a custom ACL policy from a JSON file located at /home/muzan/AWS-Examples/S3/acls/policy.json.
+This command applies a custom ACL policy from a JSON file located at ```/home/muzan/AWS-Examples/S3/acls/policy.json```.
 
 ### OUTPUT 
 ![json](./images/image-1.png)
@@ -96,7 +96,7 @@ aws s3 cp bootcamp.txt s3://acls-fun-vs1
 aws s3 ls s3://acls-fun-vs1
 ```
 
-These commands create a file named bootcamp.txt, upload it to the S3 bucket acls-fun-vs1, and list the contents of the bucket.
+These commands create a file named bootcamp.txt, upload it to the S3 bucket ```acls-fun-vs1```, and list the contents of the bucket.
 
 ---
 

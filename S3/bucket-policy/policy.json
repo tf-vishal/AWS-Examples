@@ -1,0 +1,19 @@
+{
+    "Statement": [
+       {
+          "Effect": "Allow",
+          "Principal": {
+            "AWS": "arn:aws:iam::471112774154:user/Bakasur"
+         },
+          "Action": [
+            "s3:GetObject",
+            "s3:ListBucket",
+            "s3:PutObject"
+         ],
+          "Resource": [
+            "arn:aws:s3:::bucket-policy-vs1",
+            "arn:aws:s3:::bucket-policy-vs1/*"
+         ]
+       }
+    ]
+} 
