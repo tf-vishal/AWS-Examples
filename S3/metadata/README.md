@@ -26,11 +26,11 @@ aws s3api put-object --bucket metadata-fun-vs1 --key hello.txt --body hello.txt 
 
 ### CLI Output after Creating Metadata
 
-![CLI Output after creating metadata](image.png)
+![CLI Output after creating metadata](./images/image.png)
 
 ### Console Image after Creating Metadata
 
-![Console Image after Creating metadata](image-1.png)
+![Console Image after Creating metadata](./images/image-1.png)
 
 ## Create a New File for System-Defined Metadata
 
@@ -58,11 +58,11 @@ aws s3api head-object --bucket metadata-fun-vs1 --key mytext.txt
 
 ### CLI Output After Changing System-Defined Metadata
 
-![CLI Pic after changing the system-defined metadata](image-3.png)
+![CLI Pic after changing the system-defined metadata](./images/image-3.png)
 
 ### Console Image After Changing Content Type
 
-![Console Pic after changing content type](image-2.png)
+![Console Pic after changing content type](./images/image-2.png)
 
 ---
 
@@ -73,11 +73,11 @@ aws s3api head-object --bucket metadata-fun-vs1 --key mytext.txt
 
 ### Metadata for Content-Type (CLI Output)
 
-![Used Metadata For Content_type CLI](image-4.png)
+![Used Metadata For Content_type CLI](./images/image-4.png)
 
 ### Metadata for Content-Type (Console Output)
 
-![Used Metadata for Content_type Console](image-5.png)
+![Used Metadata for Content_type Console](./images/image-5.png)
  
 ---
 
