@@ -65,7 +65,6 @@ aws s3 rb s3://bucket-policy-vs1
 ``` 
 
 --
---
 ## Additional Resources
 For more details, refer to the official AWS documentation:
 

@@ -101,3 +101,23 @@ Upload a `hello.js` file to the bucket:
 ```sh
 aws s3 cp ./pages/hello.js s3://cors-fun-vs2
 ```
+
+## Cleanup
+
+To remove all created files and the bucket, use the following commands:
+
+
+### For Bucket 1
+```sh
+aws s3 rm s3://cors-fun-vs1/index.html
+aws s3 rb s3://cors-fun-vs1
+```
+
+### For Bucket 2
+
+```sh
+aws s3 rm s3://cors-fun-vs2/hello.js
+aws s3 rb s3://cors-fun-vs2
+```
+
+---
