@@ -18,7 +18,6 @@ aws s3api create-bucket --bucket acls-fun-vs1
 
 This command creates a bucket named ```acls-fun-vs1```.
 
-
 ---
 
 ## Turn off Block Public Access for ACLs
@@ -43,16 +42,12 @@ To retrieve the current public access block configuration for the bucket:
 aws s3api get-public-access-block --bucket acls-fun-vs1
 ```
 
-
 This command provides the public access block settings for the bucket acls-fun-vs1.
 
 ### OUTPUT 
 ![alt text](./images/image.png)
 
-
 For detailed information, refer to the [AWS CLI Put Public Access Block Documentation](https://docs.aws.amazon.com/cli/latest/reference/s3api/put-public-access-block.html)
-
-
 
 ---
 

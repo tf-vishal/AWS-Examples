@@ -62,7 +62,7 @@ To remove all created files and the bucket, use the following commands:
 ```sh
 aws s3 rm s3://bucket-policy-vs1/hello.txt
 aws s3 rb s3://bucket-policy-vs1
-```
+``` 
 
 --
 --
