@@ -28,7 +28,7 @@ Resources:
             Statement:
               - Effect: Allow
                 Action: '*'
-                Resource: [
+                Resource: z[
                 'arn:aws:s3:::sts-fun-vs1/*'
-                'arn:aws:s3:::sts-fun-vs1',
+                'arn:aws:s3:::sts-fun-vs1'
                 ]
