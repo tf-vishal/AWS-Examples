@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+aws cloudformation deploy \
+--template-file /home/muzan/AWS-Examples/api/sts/template.yaml \
+--stack-name my-sts-fun-vs1 \
+--capabilities CAPABILITY_IAM
+
+
+#https://docs.aws.amazon.com/cli/latest/reference/cloudformation/deploy/
