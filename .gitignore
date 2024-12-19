@@ -70,3 +70,6 @@ go.work.sum
 .env
 
 /bin
+
+
+/.vscode/*
